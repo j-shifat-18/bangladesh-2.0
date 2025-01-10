@@ -112,6 +112,8 @@
 
 */
 
+/* primary color */
+/* rgb(198, 228, 214) */
 
 * {
   margin: 0;
@@ -119,7 +121,35 @@
   font-family: "Fira Sans", serif;
 }
 
+/* button hover */
+.navigation .nav-btn:hover{
+  background-color:rgb(198, 228, 214);
+  color: black;
+}
+
+.banner .primary-btn:hover{
+  background-color: rgba(236, 31, 31, 0.804);
+}
+.newsletter .subscribe-btn:hover{
+  background-color: rgba(236, 31, 31, 0.804);
+}
+/* .vision .cart-btn:hover{
+  background-color:rgb(88, 174, 134) ;
+} */
+
+.recent-news .cart-btn:hover{
+  background-color: rgba(236, 31, 31, 0.804);
+}
+.donate .cart-btn:hover{
+  background-color: rgba(236, 31, 31, 0.804);
+}
+.donate .amount-btn:hover{
+  background-color:rgb(88, 174, 134) ;
+}
+
+
 /* shared styles */
+
 
 .section-heading {
   color: rgb(14, 14, 14);
@@ -179,12 +209,14 @@ body {
 /* navigation section */
 
 nav {
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .navigation {
+  width: 1228px;
   display: flex;
-  padding: 24px 153px;
+  padding: 24px 0px;
   justify-content: space-between;
   align-items: center;
 }
@@ -236,7 +268,7 @@ main {
 .primary-btn {
   margin-top: 24px;
   border-radius: 8px;
-  background: rgb(0, 106, 80);
+  background-color: rgb(0, 106, 80);
   padding: 15px 30px 15px 30px;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -276,34 +308,44 @@ main {
   margin: 24px 0px;
   padding: 32px;
   border-radius: 16px;
-  background: rgba(84, 144, 245, 0.2);
+  background-color: rgba(84, 144, 245, 0.2);
 }
 
 .vision .cart-container .cart-2 {
   margin: 24px 0px;
   padding: 32px;
   border-radius: 16px;
-  background: rgb(198, 228, 214);
+  background-color: rgb(198, 228, 214);
 }
 
 .vision .cart-container .cart-3 {
   margin: 24px 0px;
   padding: 32px;
   border-radius: 16px;
-  background: rgb(247, 235, 207);
+  background-color: rgb(247, 235, 207);
 }
 
 .cart-1 .cart-btn {
 
-  background: rgb(84, 144, 245);
+  background-color: rgb(84, 144, 245);
+}
+
+.cart-1 .cart-btn:hover{
+  background-color: rgb(27, 68, 138);;
 }
 
 .cart-2 .cart-btn {
-  background: rgb(9, 161, 92);
+  background-color: rgb(9, 161, 92);
+}
+.cart-2 .cart-btn:hover {
+  background-color: rgb(24, 99, 65);
 }
 
 .cart-3 .cart-btn {
-  background: rgb(255, 194, 57);
+  background-color: rgb(255, 194, 57);
+}
+.cart-3 .cart-btn:hover{
+  background-color: rgb(194, 139, 13);
 }
 
 /* quote */
@@ -418,7 +460,7 @@ main {
 
 .recent-news .cart-btn {
   border-radius: 8px;
-  background: rgb(0, 106, 80);
+  background-color: rgb(0, 106, 80);
 }
 
 /* donate section */
@@ -483,7 +525,7 @@ main {
 .donate .cart-btn {
   border: 1px solid rgba(14, 14, 14, 0.1);
   border-radius: 8px;
-  background: rgb(0, 106, 80);
+  background-color: rgb(0, 106, 80);
   margin-top: 30px;
 }
 
@@ -531,6 +573,7 @@ main {
 
 /* footer */
 .footer{
+  margin: 0 auto;
   background-color: white;
   width: 1519px;
  
@@ -547,4 +590,8 @@ main {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+
+.btn-hover:hover{
+  background-color: lightblue;
 }
