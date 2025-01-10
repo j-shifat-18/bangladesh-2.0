@@ -112,4 +112,85 @@
 
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
+}
+
+/* body */
+body {
+  background-color: #F5F5F5;
+}
+
 /* navigation section */
+
+nav {
+  margin-bottom: 20px;
+}
+
+.navigation {
+  display: flex;
+  padding: 24px 153px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .nav-btn {
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+
+}
+
+/* main */
+main {
+  width: 1228px;
+  margin: 0 auto;
+}
+
+/* banner */
+.banner {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 76px 80px;
+}
+
+.banner .banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .banner-container .sub-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.banner .banner-container .heading {
+  margin: 16px 0px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.primary-btn {
+  margin-top: 24px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 15px 30px 15px 30px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+}
