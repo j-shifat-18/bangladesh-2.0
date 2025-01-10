@@ -112,11 +112,17 @@
 
 */
 
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
+}
+
 /* shared styles */
 
 .section-heading {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -127,7 +133,6 @@
 .section-description {
   margin: 12px 0px;
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -137,7 +142,6 @@
 .cart-title {
   margin: 12px 0px;
   color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -147,7 +151,6 @@
 .cart-description {
   margin-bottom: 24px;
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -167,11 +170,6 @@
 }
 
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Fira Sans", serif;
-}
 
 /* body */
 body {
@@ -222,7 +220,6 @@ main {
 
 .banner .banner-container .sub-title {
   color: rgba(14, 14, 14, 0.5);
-  font-family: Fira Sans;
   font-size: 24px;
   font-weight: 500;
   text-align: left;
@@ -231,7 +228,6 @@ main {
 .banner .banner-container .heading {
   margin: 16px 0px;
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 56px;
   font-weight: 700;
   text-align: left;
@@ -243,7 +239,6 @@ main {
   background: rgb(0, 106, 80);
   padding: 15px 30px 15px 30px;
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
@@ -311,6 +306,55 @@ main {
   background: rgb(255, 194, 57);
 }
 
+/* opinion section */
+.opinion {
+  margin-top: 75px;
+}
+
+.opinion .table {
+  margin-top: 24px;
+  border-radius: 16px;
+  padding: 32px;
+  background: rgb(255, 255, 255);
+}
+
+.table table {
+  font-weight: 600;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.table thead {
+  background-color: #C6E4D6;
+  font-size: 20px;
+}
+
+.table td {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.table .dropdown {
+  background-color: #C6E4D6;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+}
+
+.table .c1 {
+  padding: 24px;
+  width: 975px;
+  text-align: left;
+}
+
+.table .c2 {
+  padding: 24px;
+  width: 192px;
+  text-align: center;
+}
+
 /* recent news */
 .recent-news {
   margin: 75px 0px;
@@ -321,7 +365,6 @@ main {
   display: flex;
   gap: 24px;
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -394,7 +437,6 @@ main {
   border-radius: 16px;
   background: rgb(255, 255, 255);
   color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -409,7 +451,6 @@ main {
   margin-top: 30px;
   padding: 18px 350px;
   color: rgba(14, 14, 14, 0.3);
-  font-family: Fira Sans;
   font-size: 20px;
   font-weight: 400;
   text-align: center;
@@ -425,4 +466,46 @@ main {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   margin-top: 30px;
+}
+
+/* newsletter section */
+.newsletter {
+  margin-bottom: 75px;
+  text-align: center;
+  padding: 80px 265px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+.newsletter .section-heading,
+.section-description {
+  text-align: center;
+}
+
+.newsletter .email {
+  padding: 17px 386px 17px 38px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  border: none;
+}
+
+.subscribe {
+  display: flex;
+  margin: 24px 0px;
+}
+
+.newsletter .subscribe-btn {
+  padding: 17px 30px 17px 30px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  /* margin: 24px 0px; */
 }
