@@ -194,3 +194,23 @@ main {
   text-align: center;
   border: none;
 }
+
+/* Pillars of "Bangladesh 2.0" section */
+.pillers {
+  margin: 75px 0px;
+}
+
+.pillers .cart-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 24px;
+}
+
+.pillers .cart-container .cart{
+  padding: 24px;
+  /* display: flex; */
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+
+}
