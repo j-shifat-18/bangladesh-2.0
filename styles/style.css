@@ -112,6 +112,61 @@
 
 */
 
+/* shared styles */
+
+.section-heading {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+
+}
+
+.section-description {
+  margin: 12px 0px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.cart-title {
+  margin: 12px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.cart-description {
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.cart-btn {
+  padding: 10px 18px 10px 18px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -216,31 +271,12 @@ main {
 }
 
 /* vision section */
-.section-heading {
-  color: rgb(14, 14, 14);
-  font-family: Fira Sans;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 48px;
-  text-align: left;
-
-}
-
-.vision .section-description {
-  margin: 12px 0px;
-  color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
 .vision .cart-container {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
+
 .vision .cart-container .cart-1 {
   margin: 24px 0px;
   padding: 32px;
@@ -248,7 +284,7 @@ main {
   background: rgba(84, 144, 245, 0.2);
 }
 
-.vision .cart-container .cart-2{
+.vision .cart-container .cart-2 {
   margin: 24px 0px;
   padding: 32px;
   border-radius: 16px;
@@ -260,35 +296,6 @@ main {
   padding: 32px;
   border-radius: 16px;
   background: rgb(247, 235, 207);
-}
-.vision .cart-container h3 {
-  margin: 12px 0px;
-  color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: left;
-}
-.vision .cart-container p {
-  margin-bottom: 24px;
-  color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-.cart-btn {
-  padding: 10px 18px 10px 18px;
-  margin-bottom: 24px;
-  border-radius: 8px;
-  color: rgb(255, 255, 255);
-  font-family: Fira Sans;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-  border: none;
 }
 
 .cart-1 .cart-btn {
@@ -302,4 +309,51 @@ main {
 
 .cart-3 .cart-btn {
   background: rgb(255, 194, 57);
+}
+
+/* recent news */
+.recent-news{
+  margin: 75px 0px;
+}
+.date-time {
+  margin: 12px 0px;
+  display: flex;
+  gap: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cart-container-1 {
+  padding: 48px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  margin: 24px 0px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.section-img {
+  border-radius: 24px;
+}
+
+.cart-container-2 {
+  padding: 48px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  margin: 24px 0px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.recent-news .cart-btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
 }
