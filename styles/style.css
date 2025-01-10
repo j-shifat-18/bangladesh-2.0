@@ -306,6 +306,25 @@ main {
   background: rgb(255, 194, 57);
 }
 
+/* quote */
+.quote {
+  padding: 24px 30px 24px 22px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.quote .quote-bg{
+  background-image: url('../assets/quote-bg.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.quote .section-description{
+  text-align: left;
+}
+.quote .p1{
+  padding-top: 24px;
+}
 /* opinion section */
 .opinion {
   margin-top: 75px;
