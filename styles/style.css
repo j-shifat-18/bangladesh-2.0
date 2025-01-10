@@ -489,7 +489,7 @@ main {
 
 /* newsletter section */
 .newsletter {
-  margin-bottom: 75px;
+  margin: 75px 0px;
   text-align: center;
   padding: 80px 265px;
   background-color: #C6E4D6;
